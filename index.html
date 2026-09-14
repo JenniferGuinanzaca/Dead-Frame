@@ -8,7 +8,7 @@
 <body>
     <header>
         <nav>
-            <a href="#" class="siteTitle">DEAD FRAME</a>
+            <a href="#" class="site-Title">DEAD FRAME</a>
 
             <div class="nav links">
                 <a href="#archive">Archive</a>
@@ -18,15 +18,41 @@
     </header>
 
     <main>
-        <section id="Hero">
-            <p class="smallHeading"> HORROR CINEMA ARCHIVE </p>
+        <section id="hero">
+            <p class="small-Heading"> HORROR CINEMA ARCHIVE </p>
             <h1>Horror, preserved on film.</h1>
             <p>Explore slashers, supernaturals, psychological thrillers, and creatures of the night.</p>
 
-            <a href="#archive" class="heroBtn"> Enter The Archive </a>
+            <a href="#archive" class="hero-Btn"> Enter The Archive </a>
         </section>
 
-        
+        <section id="archive">
+            <div class="section-Heading">
+                <p class="small-Heading"> THE COLLECTION </p>
+                <h2> Browse The Archive </h2>
+                <p> Choose a category and discover your next nightmare. </p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all"> All</button>
+                <button class="filter-btn" data-category="slasher"> Slasher</button>
+                <button class="filter-btn" data-category="paranormal"> Paranormal</button>
+                <button class="filter-btn" data-category="psychological"> Psychological</button>
+                <button class="filter-btn" data-category="creature"> Creature</button>
+            </div>
+
+            <div id="movie-grid"class="movie-grid">
+                <!-- Movie Cards will be inserted here with js, hopefully!-->
+             </div>
+        </section>
+
+        <section id="about" class="about">
+            <div>
+                <p class="small-Heading"> ABOUT DEAD FRAME </p>
+                <h2> A Horror Cinema Archive</h2>
+                <p> i'll put something later </p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
