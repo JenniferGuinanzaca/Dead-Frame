@@ -19,3 +19,22 @@ function displayMovies(movies){
 }
 
 displayMovies(movies);
+
+const filterButtons = document.querySelectorAll(".filter-btn");
+
+filterButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+
+        const category = button.getAttribute("data-category");
+
+        if (category == "all") {
+            displayMovies(movies);
+        } 
+        else {
+            const filteredMovies = movies.filter((movie) => movie.genre === category);
+            displayMovies(filteredMovies);
+        }
+
+    });
+});
+
