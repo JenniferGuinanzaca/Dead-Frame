@@ -48,3 +48,15 @@ nav{
 .nav-links a:hover{
     color:#a32626;
 }
+
+#hero {
+    padding: 8rem 1.25rem 5rem;
+}
+
+.small-Heading{
+    color:#a32626;
+    font-size:0.75rem;
+    font-weight:bold;
+    letter-spacing:0.15rem;
+    margin-bottom:1rem;
+}
