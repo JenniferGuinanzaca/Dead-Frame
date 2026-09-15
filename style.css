@@ -73,3 +73,16 @@ nav{
     max-width: 600px;
     margin-bottom:2rem;
 }
+
+.hero-Btn{
+    display:inline-block;
+    background-color:#a32626;
+    color:#ffffff;
+    text-decoration:none;
+    padding:0.9rem 1.5rem;
+    font-weight:bold;
+}
+
+.hero-Btn:hover{
+    background-color:#c52f2f;
+}
