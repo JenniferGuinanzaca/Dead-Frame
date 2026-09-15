@@ -60,3 +60,16 @@ nav{
     letter-spacing:0.15rem;
     margin-bottom:1rem;
 }
+
+.h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:3.5rem;
+    line-height:1;
+    margin-bottom:1.5rem;
+}
+
+#hero p{
+    color:#999;
+    max-width: 600px;
+    margin-bottom:2rem;
+}
