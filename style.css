@@ -102,8 +102,8 @@ h1{
 
 #archive{
     padding:5rem 1.25rem;
-    /*max-width: 1200px;
-    margin: 0 auto;*/
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .section-Heading{
@@ -117,7 +117,7 @@ h1{
 
 }
 
-.section-description{
+.archive-description{
     color:#999;
 }
 
@@ -150,4 +150,20 @@ h1{
 .movie-grid{
     display:grid;
     gap:1.5rem;
+}
+
+.about{
+    padding:5rem 1.25rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-description{
+    color: #999;
 }
