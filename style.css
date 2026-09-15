@@ -68,7 +68,7 @@ nav{
     margin-bottom:1.5rem;
 }
 
-#hero p{
+.hero-description{
     color:#999;
     max-width: 600px;
     margin-bottom:2rem;
