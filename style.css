@@ -25,3 +25,12 @@ nav{
     align-items:center;
     padding:1.25 rem;
 }
+
+.site-title{
+    color:#e8e8e8;
+    text-decoration:none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:1.5 rem;
+    font-weight:bold;
+    letter-spacing:0.1 rem;
+}
