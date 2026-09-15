@@ -167,3 +167,11 @@ h1{
 .about-description{
     color: #999;
 }
+
+footer{
+    border-top:1px solid #242424;
+    padding:2rem 1.25rem;
+    text-align:center;
+    color:#a32626;
+    font-size:0.85rem;
+}
