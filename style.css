@@ -23,14 +23,28 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:1.25 rem;
+    padding:1.25rem;
 }
 
 .site-Title{
     color:#e8e8e8;
     text-decoration:none;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:1.5 rem;
+    font-size:1.5rem;
     font-weight:bold;
-    letter-spacing:0.1 rem;
+    letter-spacing:0.1rem;
+}
+
+.nav-links{
+    display:flex;
+    gap:1.5rem;
+}
+
+.nav-links a{
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color:#a32626;
 }
