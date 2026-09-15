@@ -5,7 +5,7 @@ const movies=[
         title: "Scream",
         year: 1996,
         director: "Wes Craven",
-        genre: "Slasher",
+        genre: "slasher",
         description: "A masked killer terrorizes a small town, targeting teenagers.",
         image: "images/scream.jpg"
     },
